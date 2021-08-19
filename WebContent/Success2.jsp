@@ -30,7 +30,11 @@ function sendInfo()
 <button type="submit" onClick="sendInfo()">Download Excel</button>
 </form>  -->
 
- <form name="DownloadExcel" action="DownLoadExcelServlet2" method="GET">
+ <!-- <form name="DownloadExcel" action="DownLoadExcelServlet2" method="GET">
+<button type="submit">Download Excel</button>
+</form> -->
+
+<form name="DownloadExcel" action="DownLoadExcelServlet3" method="GET">
 <button type="submit">Download Excel</button>
 </form>
 

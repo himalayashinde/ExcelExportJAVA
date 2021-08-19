@@ -31,7 +31,7 @@
   </servlet-mapping>  -->
   
   
-  <servlet>
+<!--   <servlet>
     <servlet-name>DownLoadExcelServlet2</servlet-name>
     <servlet-class>excel.export.DownLoadExcelServlet2</servlet-class>
   </servlet>
@@ -39,7 +39,18 @@
   <servlet-mapping>
     <servlet-name>DownLoadExcelServlet2</servlet-name>
     <url-pattern>/DownLoadExcelServlet2</url-pattern>
+  </servlet-mapping>  -->
+
+  <servlet>
+    <servlet-name>DownLoadExcelServlet3</servlet-name>
+    <servlet-class>excel.export.DownLoadExcelServlet3</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DownLoadExcelServlet3</servlet-name>
+    <url-pattern>/DownLoadExcelServlet3</url-pattern>
   </servlet-mapping> 
+
   
   
 </web-app>
